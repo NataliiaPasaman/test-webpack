@@ -1,2 +1,2 @@
-// import { result } from './module-2';
+// import { result } from './src/module-2.js';
 // import './styles.common.css';
