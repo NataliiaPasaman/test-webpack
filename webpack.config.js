@@ -12,10 +12,15 @@ module.exports = {
                 test: /\.css$/i,
                 use: ["style-loader", "css-loader"],
               },
+              {
+                test: /\.m?js$/,
+                exclude: /node_modules/,
+                use: ["babel-loader"],
+              },
         ],
     },
     devServer: {
-        port: 5555,
+        port: 4444,
         open: true,
         stats: "errors-only",
     },
