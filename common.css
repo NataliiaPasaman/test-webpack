@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 20px;
+}
+.title {
+    font-size: 30px;
+    color: crimson;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+    padding: 20px;
+}
