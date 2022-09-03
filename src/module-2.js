@@ -1,6 +1,7 @@
-import myFunc from "./src/module -1.js";
+import myFunc from "./module -1";
 
 const result = myFunc();
 
 console.log(result);
 
+export { result };
